@@ -1,0 +1,193 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #565656;
+}
+
+header {
+    text-align: center;
+    width: 900px;
+    height: 200px;
+    background-image: url('img/Captura\ de\ tela\ 2023-10-30\ 230230.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 30px;
+    margin-left: 5%;
+    transition: background-color 0.3s; /* Adicione uma transição suave de cor de fundo */
+}
+
+header:hover {
+    background-color: #000; /* Define a cor de fundo como preto ao passar o mouse */
+}
+h1 {
+    font-size: 32px;
+}
+
+p {
+    font-size: 18px;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+}
+section:hover {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(238, 211, 186);
+}
+
+#sobre-mim img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+#projetos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.projeto {
+    width: 30%;
+    margin-left: none;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.projeto:hover{
+    width: 30%;
+    margin-left: none;
+    padding: 15px;
+    background-color: #646464;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: #fff;
+    transform: scale(1.2);
+}
+
+.projeto img {
+    width: 100%;
+    height: auto;
+}
+
+h3 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+h2{
+    text-align: center;
+    display:block;
+}
+.pepa{
+    display: block;
+    margin-right: 100%;
+    text-align: center;
+    margin-left: 45%;
+    width: 30%;
+}
+.duda {
+    text-align: center;
+    width: 979px;
+    height: 200px;
+    background-image: url('img/Captura\ de\ tela\ 2023-10-30\ 230230.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 30px;
+    margin-left:2%;
+    transition: background-color 0.3s; /* Adicione uma transição suave de cor de fundo */
+}
+.duda:hover {
+    text-align: center;
+    width: 979px;
+    height: 200px;
+    background-image: url('img/Captura\ de\ tela\ 2023-10-30\ 230230.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #d65d5d;
+    padding: 30px;
+    margin-left:2%;
+    transition: background-color 0.3s; /* Adicione uma transição suave de cor de fundo */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.search button {
+    background-color: #0074D9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+#matematica3{
+    background-image: url('img/download\ \(1\).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #000000;
+    text-decoration: none;
+}
+#portugues{
+    background-image: url('portugues.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #000000;
+    text-decoration: none;
+}
+
+.projeto img{
+    border-radius: 10% 10% 10% 10%;
+    box-shadow: 3px 3px 6px #888888;
+    transition:  0.2s;
+}
+.projeto img:hover{
+    
+}
